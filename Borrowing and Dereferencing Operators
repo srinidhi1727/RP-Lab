@@ -1,0 +1,16 @@
+fn main() {
+    let x = 10;
+    let y = &x; // Borrowing x
+
+    println!("y (borrowed) = {}", y);
+    println!("Dereferenced y = {}", *y); // Dereferencing
+}
+python:
+def modify_value(val_ref):
+    val_ref[0] += 5  # This changes the original list
+
+x = [10]          # x is a list with one element
+print("Before:", x[0])
+
+modify_value(x)   # Passing reference
+print("After:", x[0])
