@@ -1,0 +1,6 @@
+# Create a tuple
+my_tuple = ("apple", "banana", "cherry")
+
+# Access elements
+print("First element:", my_tuple[0])
+print("All elements:", my_tuple)
