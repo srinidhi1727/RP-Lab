@@ -1,0 +1,22 @@
+# Type Casting Example
+
+x = 10         # integer
+y = 2.5        # float
+z = "100"      # string
+
+# Cast float to int
+a = int(y)     # 2
+
+# Cast int to float
+b = float(x)   # 10.0
+
+# Cast string to int
+c = int(z)     # 100
+
+# Cast int to string
+d = str(x)     # "10"
+
+print("a =", a, type(a))
+print("b =", b, type(b))
+print("c =", c, type(c))
+print("d =", d, type(d))
