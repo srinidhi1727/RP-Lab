@@ -1,0 +1,4 @@
+# Declaring string object
+str_obj = str("Hello, World!")   # Converting string literal to string object
+
+print("String Object:", str_obj)
