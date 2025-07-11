@@ -1,0 +1,10 @@
+# In Python, constants are a naming convention (use uppercase)
+PI = 3.14159
+GRAVITY = 9.8
+APP_NAME = "MyApp"
+IS_ENABLED = True
+
+print("PI =", PI)
+print("Gravity =", GRAVITY)
+print("App Name =", APP_NAME)
+print("Is Enabled =", IS_ENABLED)
