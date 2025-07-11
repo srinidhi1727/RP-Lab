@@ -1,0 +1,5 @@
+1. Display Output Using:
+# Program to display output using print
+print("This is a simple output using print!")
+
+
