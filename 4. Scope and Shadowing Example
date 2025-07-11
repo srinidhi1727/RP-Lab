@@ -1,0 +1,10 @@
+# Global variable
+x = 10
+
+def my_function():
+    # Local variable shadows global variable
+    x = 20
+    print("Inside function, x =", x)
+
+my_function()
+print("Outside function, x =", x)
