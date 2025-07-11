@@ -1,0 +1,10 @@
+# a. Implicit type declaration
+a = 5       # Python infers it as int
+b = 3.14    # Python infers it as float
+
+# b. Explicit type declaration
+c: int = 10
+d: str = "Python"
+
+print("Implicit:", a, b)
+print("Explicit:", c, d)
