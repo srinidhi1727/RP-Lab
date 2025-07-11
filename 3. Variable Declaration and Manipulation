@@ -1,0 +1,16 @@
+# a. Declare variable x and assign 1000
+x = 1000
+
+# b. Declare variable y and assign "Programming"
+y = "Programming"
+
+# c. Print x and y
+print("x =", x)
+print("y =", y)
+
+# d. Change value of x to 1100
+x = 1100
+
+# e. Print updated x and y
+print("Updated x =", x)
+print("y remains =", y)
